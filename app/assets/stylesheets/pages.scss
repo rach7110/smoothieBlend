@@ -1,3 +1,16 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.homepage {
+	background: url('/assets/wild-sea.png');
+}
+
+
+h1.title {
+	margin-top: 200px;
+	color: red;
+	font-size: 10rem;
+	
+}
