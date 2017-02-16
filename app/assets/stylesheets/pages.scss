@@ -1,16 +1,16 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+/*Kuler themes:*/
+/*HOMEPAGE: https://color.adobe.com/color2-color-theme-9210951/?showPublished=true*/
 
 
-.homepage {
-	background: url('/assets/wild-sea.png');
-}
-
-
+body { background: url('/assets/wild-sea.png'); }
+.homepage img {max-width: 200px;}
+.homepage a { color: #FF2D36; }
 h1.title {
 	margin-top: 200px;
-	color: red;
+	color: #4E888A;
 	font-size: 10rem;
-	
+	font-family: 'Sansita', sans-serif;
 }
