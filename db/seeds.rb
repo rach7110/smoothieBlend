@@ -5,3 +5,30 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+  
+Blend.destroy_all
+
+blends = Blend.create([
+  {
+  user_id: 1, 
+  title: 'Mind Shocker', 
+  category: 'juice', 
+  description: 'This is full of brain-power foods.'
+  },
+ {
+  user_id: 1, 
+  title: 'Muscle Tickler', 
+  category: 'milk', 
+  description: 'This will keep your body going.'
+  },
+ {
+  user_id: 2, 
+  title: FFaker::Name.name, 
+  category: 'milk', 
+  description: 'This will keep your body going.'
+  }
+
+  ])
+
+p "Created #{Blend.count} Smoothie Blends."
